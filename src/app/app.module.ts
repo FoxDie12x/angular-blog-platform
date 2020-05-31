@@ -8,7 +8,7 @@ import { AdminConsoleComponent } from './admin-pages/admin-console/admin-console
 import { ArticlesComponent } from './admin-pages/articles/articles.component';
 import { PagesComponent } from './admin-pages/pages/pages.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule, MatSidenavModule} from '@angular/material';
+import {MatButtonModule, MatIconModule, MatSidenavModule, MatToolbarModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,9 @@ import {MatButtonModule, MatSidenavModule} from '@angular/material';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSidenavModule,
-    MatButtonModule
+    MatButtonModule,
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
