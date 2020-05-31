@@ -1,0 +1,8 @@
+.example-container {
+  position: absolute;
+  border: 1px solid red;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

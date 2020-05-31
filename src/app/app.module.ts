@@ -3,14 +3,27 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ViewArticleComponent } from './view-article/view-article.component';
+import { AdminConsoleComponent } from './admin-pages/admin-console/admin-console.component';
+import { ArticlesComponent } from './admin-pages/articles/articles.component';
+import { PagesComponent } from './admin-pages/pages/pages.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule, MatSidenavModule} from '@angular/material';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ViewArticleComponent,
+    AdminConsoleComponent,
+    ArticlesComponent,
+    PagesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSidenavModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
